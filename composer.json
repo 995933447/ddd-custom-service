@@ -1,0 +1,29 @@
+{
+    "require": {
+        "ext-redis": "*",
+        "ext-curl": "*",
+        "illuminate/database": "^7.14",
+        "illuminate/events": "^7.14",
+        "aliyuncs/oss-sdk-php": "^2.3",
+        "google/apiclient": "^2.5",
+        "monolog/monolog": "^2.1",
+        "ext-pdo": "*",
+        "symfony/console": "^5.1",
+        "ext-zlib": "*",
+        "ext-json": "*",
+        "filp/whoops": "^2.7",
+        "lcobucci/jwt": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "Framework\\": "framework",
+            "Infrastructure\\": "infrastructure",
+            "Domain\\": "domain",
+            "Shared\\": "shared"
+        },
+        "files": [
+            "app\\Util\\HelperFunction\\functions.php"
+        ]
+    }
+}
